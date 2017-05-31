@@ -10,6 +10,7 @@ public class FindElement {
 	public static void main(String[] args) {
 		
 		WebDriver d=new FirefoxDriver();
+		System.out.println("i am find anf you");
 		d.get("https://flipkart.com");
 		List<WebElement> list=d.findElements(By.tagName("a"));
 		

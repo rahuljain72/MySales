@@ -13,6 +13,7 @@ public class MyFirstCode {
 		String expurl="facebook.com";
 		driver.get("https://www.facebook.com");
 		String acturl=driver.getCurrentUrl();
+		System.out.println(" i am rj");
 		
 		System.out.println(acturl);
 		if(acturl.contains(expurl))
