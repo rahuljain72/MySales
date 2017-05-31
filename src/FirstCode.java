@@ -1,5 +1,4 @@
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FirstCode {
@@ -10,7 +9,8 @@ public class FirstCode {
 		
 		//System.setProperty("webdriver.chrome.driver", "F:\\Selenium versions\\chromedriver.exe");
 		
-		WebDriver driver=new FirefoxDriver();
+		@SuppressWarnings("unused")
+		WebDriver driver1=new FirefoxDriver();
 		
 		//WebDriver driver=new ChromeDriver();
 		
